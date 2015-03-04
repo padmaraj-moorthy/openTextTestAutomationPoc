@@ -76,13 +76,13 @@ public class OpenTextTestAutomationPOC extends TestCase {
         driver.findElement(By.xpath("//*[@id='fk-mainhead-id']/div[1]/div/div[2]/div[1]/ul/li[8]/a")).click();
         //*[@id="login_email_id"]
         //#login_email_id
-        driver.findElement(By.id("login_email_id1")).sendKeys("padmaraj.moorthy@gmail.com");
+        driver.findElement(By.id("login_email_id1")).sendKeys("login_id");
         //*[@id="login_email_id1"]
         //driver.findElement(By.cssSelector("#login_email_id1")).sendKeys("padmaraj.moorthy@gmail.com");
 
         //*[@id="login_password"]
         //*[@id="login_password1"]
-        driver.findElement(By.id("login_password1")).sendKeys("Test@123");
+        driver.findElement(By.id("login_password1")).sendKeys("password");
         //*[@id="login-form"]/div[3]/div[2]/input[2]
         //*[@id="login-cta"]
         //driver.findElement(By.xpath("//*[@id='login-form']/div[3]/div[2]/input[2]")).click();
